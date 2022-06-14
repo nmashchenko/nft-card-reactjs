@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/exortme1ster/order-summary)
-- Live Site URL: [Add live site URL here](https://exortme1ster-order.netlify.app)
+- Solution URL: [Add solution URL here](https://github.com/exortme1ster/nft-card-reactjs)
+- Live Site URL: [Add live site URL here](https://exortme1ster-nft.netlify.app)
 
 
 ### Built with
@@ -42,6 +42,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@exortme1ster](https://www.frontendmentor.io/profile/exortme1ster)
 
