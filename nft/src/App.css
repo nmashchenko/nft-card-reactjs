@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;  
+  font-family: 'Outfit',
+  sans-serif;
+}
+
+:root {
+  --very-dark-blue-main: hsl(217, 54%, 11%); /* main bg */
+  --very-dark-blue-card: hsl(216, 50%, 16%); /* card bg */
+  --very-dark-blue-line: hsl(215, 32%, 27%); /* line */
+  --white: hsl(0, 0%, 100%);
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan:  hsl(178, 100%, 50%);
+}
