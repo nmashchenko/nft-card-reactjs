@@ -17,6 +17,11 @@ export const NftCard = styled.div`
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 35px;
+
+  @media screen and (max-width: 480px) {
+    width: 20rem;
+    height: 33rem;
+  }
 `
 
 export const ImageWrapper = styled.div`
@@ -42,6 +47,11 @@ export const Img = styled.img`
   &:hover{
     opacity: 0.3;
   }
+
+  @media screen and (max-width: 480px) {
+    width: 17rem;
+    height: 17rem;
+  }
 `
 
 export const IconImg = styled.img`
@@ -63,6 +73,11 @@ export const ImgHover = styled.div`
     opacity: 1;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 480px) {
+    width: 17rem;
+    height: 17rem;
+  }
 `
 
 export const Icon = styled.div`
@@ -75,6 +90,10 @@ export const NftTextContainer = styled.div`
   justify-content: start;
   margin-top: 25px;
   margin-left: 32px;
+
+  @media screen and (max-width: 480px) {
+    margin-top: 25px;
+  }
 `
 
 export const NftH1 = styled.a`
@@ -86,6 +105,7 @@ export const NftH1 = styled.a`
   &:hover{
     color: hsl(178, 100%, 50%);
   }
+  
 `
 
 export const NftP = styled.p`
@@ -94,6 +114,10 @@ export const NftP = styled.p`
   font-weight: 300;
   max-width: 350px;
   font-size: 18px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
+  }
 `
 
 export const NftInfo = styled.div`
@@ -103,6 +127,10 @@ export const NftInfo = styled.div`
   margin-top: 30px;
   align-items: center;
   justify-content: flex-start;
+
+  @media screen and (max-width: 480px) {
+    margin-top: 25px;
+  }
 `
 
 export const NftEtheriumLogo = styled.img`
@@ -114,18 +142,30 @@ export const NftPrice = styled.h3`
   margin-left: 10px;
   color: hsl(178, 100%, 50%);
   font-size: 18px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 15px;
+  }
 `
 
 export const NftTimeIcon = styled.img`
   margin-left: 90px;
   width: 17px;
   height: 17px;
+
+  @media screen and (max-width: 480px) {
+    margin-left: 75px;
+  }
 `
 
 export const NftTimeLeft = styled.h3`
   margin-left: 5px;
   color: hsl(215, 51%, 70%);
   font-weight: 300;
+
+  @media screen and (max-width: 480px) {
+    font-size: 15px;
+  }
 `
 
 export const NftHR = styled.hr`
@@ -160,6 +200,10 @@ export const NftCreatorTxt = styled.p`
   margin-left: 15px;
   color: hsl(215, 51%, 70%);
   font-size: 18px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 15px;
+  }
 `
 
 export const NftLink = styled.a`
@@ -171,5 +215,9 @@ export const NftLink = styled.a`
 
   &:hover{
     color: hsl(178, 100%, 50%);
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 15px;
   }
 `
